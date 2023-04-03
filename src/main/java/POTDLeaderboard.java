@@ -98,7 +98,7 @@ public class POTDLeaderboard extends ListenerAdapter {
     }
 
     public static void main(String[] args) throws LoginException, IOException, ClassNotFoundException {
-        String token = "OTMyMDA4NzE2OTk4NDE0MzY2.YeMuwg.IJgiUxgXeRj6C9ynvoOxP5bbBg4";
+        String token = "HA I DON'T FALL FOR THAT";
         JDA jda = JDABuilder.createDefault(token).build();
         JDABuilder builder = JDABuilder.createDefault(token);
         JDABuilder.createLight(token, GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES).addEventListeners(new POTDLeaderboard()).setActivity(Activity.playing("!leaderboard")).build();
